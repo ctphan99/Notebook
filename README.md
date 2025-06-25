@@ -49,3 +49,10 @@ This repository contains a single Jupyter notebook with introductory data scienc
 
 ## Requirements
 See `requirements.txt` for a list of Python packages used in the notebook and script.
+
+## Example Results
+The scripts have been tested on small problems.
+- With `N_g=1`, F2CSA achieves about **2.1×** speedup per gradient evaluation compared
+  to the implicit baseline.
+- With `N_g=4`, F2CSA converges roughly **30%** faster to the same accuracy, trading
+  off some computational savings for stability.
